@@ -15,11 +15,8 @@
 <!-- #footer-wrap -->
 
 <a href="#" class="site-scroll-top"><span class="fa fa-arrow-up"></span></a>
-<script type='text/javascript' src='/wp-content/themes/mrktinh/js/jquery.form.min.js'></script>
-<script type='text/javascript' src='/wp-content/themes/mrktinh/js/scripts.js'></script>
-<script type='text/javascript' src='/wp-content/themes/mrktinh/js/plugins.js'></script>
+<?php wp_footer(); ?>
 <script type='text/javascript'>
-    /*           */
     var wpexLocalize = {
         "mobileMenuOpen" : "Browse Categories",
         "mobileMenuClosed" : "Close navigation",
@@ -29,8 +26,6 @@
         "PasswordPlaceholder" : "Password",
         "enableFitvids" : "true"
     };
-    /*     */
 </script>
-<script type='text/javascript' src='/wp-content/themes/mrktinh/js/global.js'></script>
 </body>
 </html>
